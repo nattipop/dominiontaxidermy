@@ -1,0 +1,22 @@
+#nav {
+  background-color: var(--dark-gray);
+  color: white;
+  min-width: 100vw;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin: 24px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}

@@ -1,0 +1,13 @@
+#footer {
+  background-color: var(--dark-gray);
+  color: white;
+  min-width: 100vw;
+  display: block;
+  position: absolute;
+  left: 0;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 14px;
+}

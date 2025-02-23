@@ -1,0 +1,27 @@
+#home {
+  background-color: var(--dark-tan);
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+#logo-img {
+  position: absolute;
+  width: 200px;
+  margin: 50px;
+}
+
+#cover-img {
+  min-width: 100vw;
+  height: 450px;
+  object-fit: cover;
+  object-position: 0px -340px;
+}
+
+#cover-header {
+  font-size: 60px;
+  font-family: "Kefa-Regular", cursive;
+  position: absolute;
+  top: 300px;
+  color: white;
+  text-align: left;
+}
