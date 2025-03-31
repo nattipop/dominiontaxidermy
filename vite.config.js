@@ -8,6 +8,6 @@ export default defineConfig({
   },
   plugins: [react()],
   server: {
-    allowedHosts: ['https://dominion-taxidermy-wi-ec92e7c89fac.herokuapp.com/'],
+    allowedHosts: ['dominion-taxidermy-wi-ec92e7c89fac.herokuapp.com'],
   }
 })
