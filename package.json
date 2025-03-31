@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "serve": "vite preview",
+    "serve-heroku": "vite --host 0.0.0.0 --port $PORT preview"
   },
   "dependencies": {
     "axios": "^1.8.4",
