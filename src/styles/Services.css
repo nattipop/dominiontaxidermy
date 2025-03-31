@@ -1,0 +1,55 @@
+#services {
+  background-color: var(--dark-tan);
+  padding: 50px 0px;
+}
+
+.service-header {
+  font-family: "Kefa-Regular", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.service-box {
+  padding: 20px;
+  outline: 1px var(--dark-gray) solid;
+  box-shadow: 2px 2px rgba(36, 35, 35, 0.432);
+  margin: 5px;
+  font-family: "Montserrat", serif;
+}
+
+.service-box:hover {
+  box-shadow: 3px 3px rgba(36, 35, 35, 0.432);
+  cursor: pointer;
+}
+
+.single-service {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 500px;
+}
+
+.service-single-picture {
+  width: 300px;
+  margin: 30px;
+}
+
+.service-display-picture {
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.service-title {
+  font-size: 20px;
+}
+
+.service-price {
+  font-size: 15px;
+}
