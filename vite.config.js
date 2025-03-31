@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [react()],
-  preview: {
-    allowedHosts: "dominion-taxidermy-wi-ec92e7c89fac.herokuapp.com"
+  server: {
+    allowedHosts: ['https://dominion-taxidermy-wi-ec92e7c89fac.herokuapp.com/'],
   }
 })
