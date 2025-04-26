@@ -5,7 +5,33 @@
   display: block;
   position: absolute;
   left: 0;
-  padding: 40px;
+  padding: 40px 250px;
+}
+
+#footer-nav {
+  flex-direction: column;
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-contact-info {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  padding: 0px;
+  margin: 5px;
+  text-align: left;
+}
+
+.footer-contact-info-header {
+  font-family: "Montserrat", serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 5px;
+  text-align: left;
 }
 
 h1 {

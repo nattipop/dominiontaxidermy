@@ -1,0 +1,16 @@
+#about {
+  background-color: var(--dark-tan);
+  color: var(--dark-gray);
+  padding: 100px 100px;
+  text-align: left;
+}
+
+#about h1 {
+  font-size: 40px;
+  font-family: "Kefa-Regular", cursive;
+}
+
+#about h3 {
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+}

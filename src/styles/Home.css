@@ -5,9 +5,9 @@
 }
 
 #logo-img {
-  position: absolute;
   width: 200px;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 #cover-img {
@@ -18,10 +18,48 @@
 }
 
 #cover-header {
+  position: absolute;
+  top: 61px;
+  height: 451px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.548);
+  text-align: center;
+}
+
+#cover-header h2 {
   font-size: 60px;
   font-family: "Kefa-Regular", cursive;
-  position: absolute;
-  top: 300px;
   color: white;
-  text-align: left;
+}
+
+#welcome {
+  background-color: var(--tan);
+  padding: 50px 200px;
+  font-size: 18px;
+  font-family: "Montserrat", serif;
+}
+
+#what-we-offer {
+  align-items: center;
+  justify-content: center;
+  padding: 50px 150px;
+}
+
+#what-we-offer .col {
+  padding: 0px 0px;
+}
+
+#home-contact {
+  background-color: var(--tan);
+  padding: 50px 150px;
+}
+
+.contact-info {
+  font-family: "Montserrat", serif;
+}
+
+#business-name {
+  font-weight: bold;
+  font-family: "Kefa-Regular", cursive;
+  font-size: 30px;
 }

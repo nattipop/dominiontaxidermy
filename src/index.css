@@ -16,7 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --dark-gray: #181c1f;
-  --tan: #7e837c;
+  --tan: #959597;
   --dark-tan: #57585a;
 }
 
@@ -36,5 +36,4 @@ a:hover {
 
 .page {
   margin-top: 62px;
-  margin-bottom: 105px;
 }
