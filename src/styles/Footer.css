@@ -10,6 +10,7 @@
 
 #footer-nav {
   flex-direction: column;
+  margin-left: 190px;
 }
 
 .footer-link:hover {
@@ -36,4 +37,13 @@
 
 h1 {
   font-size: 14px;
+}
+
+#credits {
+  padding: 50px;
+}
+
+#credits p {
+  font-family: "Montserrat", serif;
+  font-style: italic;
 }

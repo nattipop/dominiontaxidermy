@@ -12,7 +12,7 @@ const Home = () => {
         <h3>This is the welcome section. All you need is a short and to-the-point paragraph that says a little bit about your business.</h3>
       </section>
       <section id="what-we-offer">
-        <div className="row container">
+        <div className="row">
           <div className="col">
             <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
             <h2>Big Game</h2>
@@ -30,8 +30,8 @@ const Home = () => {
       <section id="home-contact">
         <h1 className="contact-info" id="business-name">Dominion Taxidermy</h1>
         <h2 className="contact-info" id="contact-name">Matthew Jerabek</h2>
-        <h2 className="contact-info" id="address">1234 Chippewa Trail, Bruce, WI 54757</h2>
         <h2 className="contact-info" id="phone">(715) 642-4966</h2>
+        <h2 className="contact-info" id="address">1234 Chippewa Trail, Bruce, WI 54757</h2>
         <h2 className="contact-info" id="email">dominiontaxidermywi@gmail.com</h2>
       </section>
     </div>

@@ -3,6 +3,13 @@
   padding: 50px 0px;
 }
 
+#services-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Kefa-Regular", cursive;
+  margin: 0px 0px 50px 0px;
+}
+
 .service-header {
   font-family: "Kefa-Regular", cursive;
   font-weight: bold;
@@ -21,6 +28,7 @@
 .service-box:hover {
   box-shadow: 3px 3px rgba(36, 35, 35, 0.432);
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.047);
 }
 
 .single-service {
@@ -47,9 +55,52 @@
 }
 
 .service-title {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .service-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-description {
   font-size: 15px;
+}
+
+.header-images {
+  width: 40vw;
+  object-fit: cover;
+}
+
+#deer-image {
+  height: 300px;
+  object-position: 0px -150px;
+}
+
+#bear-image {
+  margin: 20px;
+}
+
+#back-button {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-size: 18px;
+}
+
+#back-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.notice {
+  font-family: "Montserrat", serif;
+  font-style: italic;
+  margin: 15px;
+}
+
+.notice-2 {
+  font-family: "Montserrat", serif;
+  font-style: italic;
 }

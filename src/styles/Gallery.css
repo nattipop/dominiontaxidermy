@@ -1,0 +1,41 @@
+#gallery {
+  background-color: var(--dark-gray);
+  padding: 100px 250px;
+}
+
+.gallery-single-image {
+  width: 250px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.gallery-single-image:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+#photo-page {
+  background-color: var(--dark-gray);
+  padding: 100px 200px;
+}
+
+#full-image {
+  width: 600px;
+}
+
+#back-button {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-size: 18px;
+  color: white;
+}
+
+#back-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#loading {
+  padding: 500px;
+}

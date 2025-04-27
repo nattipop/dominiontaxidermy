@@ -32,7 +32,7 @@ const Services = () => {
     if(!misc) {
       fetchMisc()
     }
-  }, [])
+  }, [deer, fish, birds, misc, bear, smallMammal])
 
   const fetchDeer = async () => {
     try {
@@ -99,12 +99,10 @@ const Services = () => {
       return (
         <div id={service.service_id} key={service.service_id} className="service-box col" onClick={() => navigate(`/services/${service.service_id}`)}>
           <div className="row">
-            <div className="col-3 photo-column">
-              <img src={service.picture_url} alt="" className="service-display-picture" />
-            </div>
             <div className="col service-header-column">
               <h1 className="service-title">{service.title}</h1>
               <h3 className="service-price">{service.price}</h3>
+              <h3 className="service-description">{service.description}</h3>
             </div>
           </div>
         </div>
@@ -114,6 +112,9 @@ const Services = () => {
 
   return (
     <div className="page" id="services">
+      <h1 id="services-title">Services</h1>
+      <img id="deer-image" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745717898/Dominiontaxidermy/IMG_6337_tf6jos.jpg" alt="" />
+      <p className="notice">* Pricing subject to change without notice</p>
       <h1 className="service-header">Deer</h1>
       <div className="container service-list">
         {renderServices(deer)}

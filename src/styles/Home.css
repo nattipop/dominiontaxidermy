@@ -21,7 +21,8 @@
   position: absolute;
   top: 61px;
   height: 451px;
-  width: 100%;
+  left: 0px;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.548);
   text-align: center;
 }
@@ -35,14 +36,15 @@
 #welcome {
   background-color: var(--tan);
   padding: 50px 200px;
-  font-size: 18px;
+}
+
+#welcome h3 {
+  font-size: 20px;
   font-family: "Montserrat", serif;
 }
 
 #what-we-offer {
-  align-items: center;
-  justify-content: center;
-  padding: 50px 150px;
+  padding: 50px 200px;
 }
 
 #what-we-offer .col {

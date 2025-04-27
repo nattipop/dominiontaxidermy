@@ -1,9 +1,45 @@
+import { useEffect, useState } from "react";
 import "../styles/Gallery.css"
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Gallery = () => {
-  return (
-    <div className="container page" id="gallery">
-      <h1>Gallery</h1>
+  const [photos, setPhotos] = useState();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if(!photos) {
+      fetchPhotos()
+    }
+  }, [photos]);
+
+  const fetchPhotos = async () => {
+    try {
+      const response = await axios.get(`https://dominion-server-4490ee5fc0ce.herokuapp.com/all-dominion-photos`);
+  
+      setPhotos(response.data)
+    } catch(err) {
+      console.log(err)
+    }
+  }
+
+  const renderPhotos = () => {
+    return photos.map(photo => {
+      return (
+        <div id={photo.photo_id} key={photo.photo_id} className="col" onClick={() => navigate(`/gallery/${photo.photo_id}`)}>
+          <img className="gallery-single-image" src={photo.url} alt="" />
+        </div>
+      )
+    })
+  }
+
+  return photos ? (
+    <div className="row" id="gallery">
+      {renderPhotos()}
+    </div>
+  ) : (
+    <div id="gallery">
+      <img id="loading" src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator_square_medium.gif" width="250px" alt="" />
     </div>
   )
 }
