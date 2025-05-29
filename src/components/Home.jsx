@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 import "../styles/Home.css"
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Dominion Taxidermy WI";
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="page" id="home">
       <img id="cover-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745683005/Dominiontaxidermy/IMG_6852_xcoiay.jpg" width="100vw" />
@@ -14,15 +20,15 @@ const Home = () => {
       <section id="what-we-offer">
         <div className="row">
           <div className="col">
-            <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
-            <h2>Big Game</h2>
+            <img className="category-image-home" src="https://res.cloudinary.com/dawteptkh/image/upload//l_image:upload:Dominiontaxidermy:DTwhitecircle_cen486/c_scale,fl_relative,w_0.20/o_80/fl_layer_apply,g_south_east,x_0.03,y_0.04/v1748474639/Dominion-Photos/IMG_6337_hakhip.jpg" alt="" width="150px" />
+            <h2>Deer</h2>
           </div>
           <div className="col">
-            <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
+            <img className="category-image-home" src="https://res.cloudinary.com/dawteptkh/image/upload//l_image:upload:Dominiontaxidermy:DTwhitecircle_cen486/c_scale,fl_relative,w_0.20/o_80/fl_layer_apply,g_south_east,x_0.03,y_0.04/v1748474638/Dominion-Photos/IMG_3160_j3d6rd.jpg" alt="" width="150px" />
             <h2>Fish</h2>
           </div>
           <div className="col">
-            <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
+            <img className="category-image-home" src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
             <h2>Birds</h2>
           </div>
         </div>

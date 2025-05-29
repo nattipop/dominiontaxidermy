@@ -19,6 +19,19 @@
   padding: 100px 200px;
 }
 
+#photo-title {
+  font-size: 30px;
+  color: white;
+  font-family: "Kefa-Regular", cursive;
+  margin: 40px;
+}
+
+#photo-category {
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", serif;
+}
+
 #full-image {
   width: 600px;
 }

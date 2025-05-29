@@ -19,8 +19,8 @@ const Footer = () => {
         <div className="col" id="footer-contact">
           <h1 className="footer-contact-info-header">Contact Info</h1>
           <h2 className="footer-contact-info">Matthew Jerabek</h2>
-          <h2 className="footer-contact-info">(715) 642-4966</h2>
-          <h2 className="footer-contact-info">1234 Chippewa Trail, Bruce, WI 54757</h2>
+          <h2 className="footer-contact-info"><a id="phone-link" href="tel:7156424966">(715) 642-4966</a></h2>
+          <h2 className="footer-contact-info">N485 Chippewa Trail, New Auburn, WI 54757</h2>
           <h2 className="footer-contact-info">dominiontaxidermywi@gmail.com</h2>
         </div>
       </div>

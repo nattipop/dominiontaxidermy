@@ -8,6 +8,9 @@ const Gallery = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    document.title = "Dominion Taxidermy | Gallery";
+    window.scrollTo(0, 0);
+
     if(!photos) {
       fetchPhotos()
     }

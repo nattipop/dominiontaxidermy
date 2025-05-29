@@ -14,6 +14,9 @@ const Services = () => {
   const [misc, setMisc] = useState();
 
   useEffect(() => {
+    document.title = "Dominion Taxidermy | Services";
+    window.scrollTo(0, 0);
+
     if(!deer) {
       fetchDeer()
     }
@@ -113,7 +116,7 @@ const Services = () => {
   return (
     <div className="page" id="services">
       <h1 id="services-title">Services</h1>
-      <img id="deer-image" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745717898/Dominiontaxidermy/IMG_6337_tf6jos.jpg" alt="" />
+      <img id="deer-image" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/t_Dominion1/v1745717898/Dominiontaxidermy/IMG_5242_swwddo.jpg" alt="" />
       <p className="notice">* Pricing subject to change without notice</p>
       <h1 className="service-header">Deer</h1>
       <div className="container service-list">

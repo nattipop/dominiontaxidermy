@@ -1,6 +1,12 @@
+import { useEffect } from "react";
 import "../styles/About.css"
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Dominion Taxidermy | About";
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="page" id="about">
       <div className="row">
