@@ -37,7 +37,7 @@ const Home = () => {
         <h1 className="contact-info" id="business-name">Dominion Taxidermy</h1>
         <h2 className="contact-info" id="contact-name">Matthew Jerabek</h2>
         <h2 className="contact-info" id="phone">(715) 642-4966</h2>
-        <h2 className="contact-info" id="address">1234 Chippewa Trail, Bruce, WI 54757</h2>
+        <h2 className="contact-info" id="address">N485 Chippewa Trail, New Auburn, WI 54757</h2>
         <h2 className="contact-info" id="email">dominiontaxidermywi@gmail.com</h2>
       </section>
     </div>
