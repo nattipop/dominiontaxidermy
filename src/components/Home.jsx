@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import "../styles/Home.css"
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+  
   useEffect(() => {
     document.title = "Dominion Taxidermy WI";
     window.scrollTo(0, 0);
@@ -43,7 +46,7 @@ const Home = () => {
           <object data="https://lh3.googleusercontent.com/pw/AP1GczMIcL0zmAKUP9Q2PktqXxvwfHIK2BhmdvsICpgv3klU7SHNf1ncVvWD3h-kRbFYNy1ysWJl1bejHiHVZ6kpJj-DcoqwUrDPVrmvVnLXWY8E19p2fZM=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczOL4z-bx5Hr3Wnn38Xsu2LOB-gRBnDmAeqbcDgML5SsKGPt971lMZTZqutySyF6rf814qp4F55EP31okIG8Af35mcgZ0Rz7QCI-_9mZDqjkbMJbO88=w1920-h1080"></object>
         </div>
-
+        <button onClick={() => navigate("/gallery")}>View full gallery</button>
       </section>
       <section id="home-contact">
         <h1 className="contact-info" id="business-name">Dominion Taxidermy</h1>

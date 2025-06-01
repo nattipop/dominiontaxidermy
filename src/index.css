@@ -37,3 +37,14 @@ a:hover {
 .page {
   margin-top: 62px;
 }
+
+button {
+  margin: 10px;
+  font-family: "Montserrat", serif;
+  color: var(--dark-gray);
+  background-color: var(--tan);
+}
+
+button:hover {
+  background-color: #858587;
+}

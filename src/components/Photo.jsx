@@ -24,13 +24,10 @@ const Photo = () => {
     }
   }
 
-  console.log(photo)
   return photo ? (
     <div id="photo-page">
       <img id="full-image" src={photo.url} />
-      <h1 id="photo-title">{photo.title}</h1>
-      <h3 id="photo-category">{photo.category}</h3>
-      <h1 id="back-button" onClick={() => navigate(-1)}>Back</h1>
+      <button id="back-button" onClick={() => navigate(-1)}>Back</button>
     </div>
   ) : (
     <div id="photo-page">
