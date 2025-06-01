@@ -51,6 +51,12 @@
   padding: 0px 0px;
 }
 
+#slideshow {
+  min-width: 100%;
+  max-width: 100%;
+  order: 1;
+}
+
 .category-image-home {
   width: 200px;
   height: 150px;

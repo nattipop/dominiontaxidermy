@@ -5,6 +5,13 @@ const Home = () => {
   useEffect(() => {
     document.title = "Dominion Taxidermy WI";
     window.scrollTo(0, 0);
+
+    const script = document.createElement("script");
+    
+    script.src = "https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js";
+    script.async = true;
+    
+    document.body.appendChild(script);
   }, []);
 
   return (
@@ -18,20 +25,25 @@ const Home = () => {
         <h3>This is the welcome section. All you need is a short and to-the-point paragraph that says a little bit about your business.</h3>
       </section>
       <section id="what-we-offer">
-        <div className="row">
-          <div className="col">
-            <img className="category-image-home" src="https://res.cloudinary.com/dawteptkh/image/upload//l_image:upload:Dominiontaxidermy:DTwhitecircle_cen486/c_scale,fl_relative,w_0.20/o_80/fl_layer_apply,g_south_east,x_0.03,y_0.04/v1748474639/Dominion-Photos/IMG_6337_hakhip.jpg" alt="" width="150px" />
-            <h2>Deer</h2>
-          </div>
-          <div className="col">
-            <img className="category-image-home" src="https://res.cloudinary.com/dawteptkh/image/upload//l_image:upload:Dominiontaxidermy:DTwhitecircle_cen486/c_scale,fl_relative,w_0.20/o_80/fl_layer_apply,g_south_east,x_0.03,y_0.04/v1748474638/Dominion-Photos/IMG_3160_j3d6rd.jpg" alt="" width="150px" />
-            <h2>Fish</h2>
-          </div>
-          <div className="col">
-            <img className="category-image-home" src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" width="150px" />
-            <h2>Birds</h2>
-          </div>
+        <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}}
+  data-link="https://photos.app.goo.gl/CydnKp4x6YEKWFYDA"
+  data-title=""
+  data-description="">
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOcCWZUCKu3G41FTlAQX7kU1YEuYlLhC0fCX5yzdVNuez2nB1ddqdsa1VIb2xiLfwqSih2zQEPHv8qOlfFBbzgP8-AgIt7-W9npsbmE27PfVGh2zps=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMmKSpVGquwWfkD4gDyXuRlxTUfugZE9wIZHuFg2hy_l2z9LzjrFb7dfWcIySnjuOr5UdHjP2SbW6LL_NqEZ1UkeYTvDmE06BfUN53Hi5ZnWQWxA5Q=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMM8B3ntTmfQJb_jaEbUWDwqNt7O_tmFQAoDtUrqiKmx44WBni-8VzQaRLRuRv-hvypCK6aJVykk0zo0LalqT5H1cDdf1dUFpd4SSDteqOF9lyxNwc=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOvAe6WAMMSdruMSW8Rc49-dJlN52fGQb6_dHyuymV1hsbu0ldUbWKtZdsz8UM04ZTO4TGmL2o1bKwz4ArD8I435UZwyFdyTj1boQwiUT_U25El-8I=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczPzTsAZlX_y70B6AhxD6QJJ3BkMfYoGkLvXYCNHsdNn4UcDczRtfEmEV-LqF2In3gLEm3UQYSffOhTjHuSiUt_j_lQ25I_0ToaHG-O6iR69GxIvklY=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczPUupPlf849OUsRkkvMxro1mHa6Smt9bFFRupsWkCmIf7yrLyttNUBwp34yUySV0JYKsl4yiR1t03dK0SsmX9bfN_RK1wLfX_czx-p-QS_HAiY-qkw=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczNgTSfcu4W4s1iT2HMLz2jV4CK9PuRlyrBSAMX1yG8f42ibMlK_EuIKM6x7zRMrZerlVLpHfZAc7GtjDLjFOTT7ygXOE6vi2tzh5dymWRKTk2nHQh4=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMWO7nSGMf3xw5lEqcLe8CZPbqwiKfEkfKcGLJTgDVgaYvpMl1eUWyqmrj370ow036KGDpPnmJpkpSexXgzoktCpZns7RRQ1aJA1DGpFnrvFx1PUMY=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczNpQL66i5VPSowJQhN0bnBpkSO_cV3dh-pkKAEWy4wCg7qfznosdgSAy7DCabohJD8ShiB0B25pMRyBF2vF93r6cPGUYQ99QroFTUZOC3aLrw7AGS8=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczN99JmZe-B7sioO1wHlBSo4FGCU2AbA-kHSoby_HWPUq87d-jc-PLieD2BM9a7zvAAPPFmF9Zz0NYM3VReOigYXZALSXZtuaF1NekZub5g8cfArO7Q=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMQvtnxC7rLGJXlszmcawxgt1kFZl43K-Yng6670lryomv83ntJs2rcLZ009hNJ1TnuQZFb9jL5CQdm1SZdvFgWGpjrsr6lltmEYX2YZyQYb6emKH0=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMIcL0zmAKUP9Q2PktqXxvwfHIK2BhmdvsICpgv3klU7SHNf1ncVvWD3h-kRbFYNy1ysWJl1bejHiHVZ6kpJj-DcoqwUrDPVrmvVnLXWY8E19p2fZM=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOL4z-bx5Hr3Wnn38Xsu2LOB-gRBnDmAeqbcDgML5SsKGPt971lMZTZqutySyF6rf814qp4F55EP31okIG8Af35mcgZ0Rz7QCI-_9mZDqjkbMJbO88=w1920-h1080"></object>
         </div>
+
       </section>
       <section id="home-contact">
         <h1 className="contact-info" id="business-name">Dominion Taxidermy</h1>
