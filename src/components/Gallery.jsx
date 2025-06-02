@@ -41,6 +41,7 @@ const Gallery = () => {
       <div className="row" id="gallery">
         {renderPhotos()}
       </div>
+      <div id="gallery-cover"></div>
     </div>
   ) : (
     <div id="gallery">

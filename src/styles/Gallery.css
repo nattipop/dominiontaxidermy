@@ -3,6 +3,15 @@
   overflow: hidden;
 }
 
+#gallery-cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 #gallery {
   background-color: var(--dark-gray);
   padding: 100px 250px;
@@ -59,9 +68,18 @@
 }
 
 @media (max-width: 725px) {
+  #gallery {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
   .gallery-single-image {
     width: 80vw;
     padding: 0px;
     margin-bottom: 20px;
+  }
+
+  #gallery-cover {
+    display: block;
   }
 }
