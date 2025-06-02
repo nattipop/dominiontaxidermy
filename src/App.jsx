@@ -7,7 +7,6 @@ import Gallery from './components/Gallery.jsx';
 import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Contact from './components/Contact.jsx';
-import Service from './components/Service.jsx';
 import Photo from './components/Photo.jsx';
 
 function App() {
@@ -28,9 +27,6 @@ function App() {
         } />
         <Route path="/services" element={
           <Services />
-        } />
-        <Route path="/services/:serviceId" element={
-          <Service />
         } />
         <Route path="/contact" element={
           <Contact />

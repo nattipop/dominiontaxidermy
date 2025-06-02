@@ -14,3 +14,33 @@
   font-size: 20px;
   font-family: "Montserrat", serif;
 }
+
+.col-3 img {
+  width: 200px;
+}
+
+@media (max-width: 1300px) {
+  #about {
+    padding: 50px;
+  }
+
+  #image-column {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #image-column img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .col-9 {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .col-9 h3 {
+    text-overflow: ellipsis;
+  }
+}

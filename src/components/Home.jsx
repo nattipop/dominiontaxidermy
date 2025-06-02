@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     document.title = "Dominion Taxidermy WI";
     window.scrollTo(0, 0);
@@ -23,6 +23,9 @@ const Home = () => {
       <div id="cover-header">
         <img id="logo-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745682273/Dominiontaxidermy/DTwhitecircle_cen486.png" />
         <h2>High-Quality Taxidermy in<br/> Northwest Wisconsin</h2>
+      </div>
+      <div id="phone-banner">
+        <h1><a href="tel:7156424966">(715) 642-4966</a></h1>
       </div>
       <section id="welcome">
         <h3>This is the welcome section. All you need is a short and to-the-point paragraph that says a little bit about your business.</h3>

@@ -2,10 +2,8 @@ import { useState } from "react";
 import "../styles/Services.css"
 import axios from "axios";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Services = () => {
-  const navigate = useNavigate();
   const [deer, setDeer] = useState();
   const [bear, setBear] = useState();
   const [smallMammal, setSmallMammal] = useState();
@@ -100,7 +98,7 @@ const Services = () => {
   const renderServices = (array) => {
     return array?.map(service => {
       return (
-        <div id={service.service_id} key={service.service_id} className="service-box col" onClick={() => navigate(`/services/${service.service_id}`)}>
+        <div id={service.service_id} key={service.service_id} className="service-box col">
           <div className="row">
             <div className="col service-header-column">
               <h1 className="service-title">{service.title}</h1>
@@ -115,9 +113,13 @@ const Services = () => {
 
   return (
     <div className="page" id="services">
-      <h1 id="services-title">Services</h1>
-      <img id="deer-image" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/t_Dominion1/v1745717898/Dominiontaxidermy/IMG_5242_swwddo.jpg" alt="" />
+      <img id="services-cover" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1748818810/Dominiontaxidermy/IMG_6256-preview_zfywih.jpg" alt="" />
+      <div id="services-title">
+        <h1>Services</h1>
+        <h2 id="questions">Call <a href="tel:7156424966">(715) 642-4966</a> with any questions on pricing</h2>
+      </div>
       <p className="notice">* Pricing subject to change without notice</p>
+      <p className="notice-2">* Pricing is for mount only and does not include habitat</p>
       <h1 className="service-header">Deer</h1>
       <div className="container service-list">
         {renderServices(deer)}

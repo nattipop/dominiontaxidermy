@@ -1,19 +1,22 @@
+import { useNavigate } from "react-router-dom";
 import "../styles/Footer.css"
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <div id="footer">
       <div className="row">
         <div className="col">
           <ul id="footer-nav">
-            <li className="footer-link"><a>Home</a></li>
-            <li className="footer-link"><a>Gallery</a></li>
-            <li className="footer-link"><a>About</a></li>
-            <li className="footer-link"><a>Services</a></li>
-            <li className="footer-link"><a>Contact</a></li>
+            <li className="footer-link" onClick={() => navigate("/")}><a>Home</a></li>
+            <li className="footer-link" onClick={() => navigate("/gallery")}><a>Gallery</a></li>
+            <li className="footer-link" onClick={() => navigate("/about")}><a>About</a></li>
+            <li className="footer-link" onClick={() => navigate("/services")}><a>Services</a></li>
+            <li className="footer-link" onClick={() => navigate("/contact")}><a>Contact</a></li>
           </ul>
         </div>
-        <div className="col-3">
+        <div id="logo-footer" className="col-3">
           <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1745682273/Dominiontaxidermy/DTwhitecircle_cen486.png" alt="" width="100px" />
         </div>
         <div className="col" id="footer-contact">

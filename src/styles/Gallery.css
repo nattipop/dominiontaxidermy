@@ -45,3 +45,9 @@
 #loading {
   padding: 500px;
 }
+
+@media (max-width: 1030px) {
+  #gallery {
+    padding: 50px;
+  }
+}

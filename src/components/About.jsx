@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div className="page" id="about">
       <div className="row">
-        <div className="col-3">
-          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1745685210/Dominiontaxidermy/IMG_6854_rukmar.jpg" alt="" width="200px;" />
+        <div id="image-column" className="col-3">
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1745685210/Dominiontaxidermy/IMG_6854_rukmar.jpg" alt="" />
         </div>
         <div className="col-9">
           <h1>Welcome to Dominion Taxidermy!</h1>
