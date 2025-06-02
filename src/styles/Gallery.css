@@ -1,3 +1,8 @@
+#gallery-page {
+  width: 100%;
+  overflow: hidden;
+}
+
 #gallery {
   background-color: var(--dark-gray);
   padding: 100px 250px;
@@ -49,5 +54,14 @@
 @media (max-width: 1030px) {
   #gallery {
     padding: 50px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 725px) {
+  .gallery-single-image {
+    width: 80vw;
+    padding: 0px;
+    margin-bottom: 20px;
   }
 }

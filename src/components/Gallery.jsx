@@ -37,8 +37,10 @@ const Gallery = () => {
   }
 
   return photos ? (
-    <div className="row" id="gallery">
-      {renderPhotos()}
+    <div id="gallery-page">
+      <div className="row" id="gallery">
+        {renderPhotos()}
+      </div>
     </div>
   ) : (
     <div id="gallery">
