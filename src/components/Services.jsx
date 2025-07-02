@@ -118,8 +118,8 @@ const Services = () => {
         <h1>Services</h1>
         <h2 id="questions">Call <a href="tel:7156424966">(715) 642-4966</a> with any questions on pricing</h2>
       </div>
-      <p className="notice">* Pricing subject to change without notice</p>
-      <p className="notice-2">* Pricing is for mount only and does not include habitat</p>
+      <p className="notice">Pricing subject to change without notice</p>
+      <p className="notice-2">Pricing is for mount only and does not include habitat</p>
       <h1 className="service-header">Deer</h1>
       <div className="container service-list">
         {renderServices(deer)}

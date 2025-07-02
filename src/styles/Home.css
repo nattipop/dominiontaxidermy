@@ -59,6 +59,12 @@
   font-family: "Montserrat", serif;
 }
 
+#welcome h1 {
+  font-size: 25px;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+}
+
 #what-we-offer {
   padding: 50px 200px;
 }

@@ -28,7 +28,8 @@ const Home = () => {
         <h1><a href="tel:7156424966">(715) 642-4966</a></h1>
       </div>
       <section id="welcome">
-        <h3>This is the welcome section. All you need is a short and to-the-point paragraph that says a little bit about your business.</h3>
+        <h1>Dominion Taxidermy</h1>
+        <h3>Serving the greater Blue Diamond area. Trained in Wisconsin, refined in Montana</h3>
       </section>
       <section id="what-we-offer">
         <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}}
@@ -48,6 +49,8 @@ const Home = () => {
           <object data="https://lh3.googleusercontent.com/pw/AP1GczMQvtnxC7rLGJXlszmcawxgt1kFZl43K-Yng6670lryomv83ntJs2rcLZ009hNJ1TnuQZFb9jL5CQdm1SZdvFgWGpjrsr6lltmEYX2YZyQYb6emKH0=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczMIcL0zmAKUP9Q2PktqXxvwfHIK2BhmdvsICpgv3klU7SHNf1ncVvWD3h-kRbFYNy1ysWJl1bejHiHVZ6kpJj-DcoqwUrDPVrmvVnLXWY8E19p2fZM=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczOL4z-bx5Hr3Wnn38Xsu2LOB-gRBnDmAeqbcDgML5SsKGPt971lMZTZqutySyF6rf814qp4F55EP31okIG8Af35mcgZ0Rz7QCI-_9mZDqjkbMJbO88=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczPupAjGHEmtOepjMR9KL75PVJ-O2LXsOURKmrPTtD3L0mNujYuQxHKJuysbdn2Tuq_1-Wkt4b-P4KPyxa1JtIr0m-V5k5U6U-GteDsJFd6tNcqHbOs=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczP_gfgArrQd7iAFaFPu154_qxFFLF6fLUfJfbqSA1b2nseM1H5jZSSVVtFSqRjU3aboKQi5hpxXhH0z-UWY-X9I4vLzX9Btk3b6aEZwq08u_FhXf9Y=w1920-h1080"></object>
         </div>
         <button onClick={() => navigate("/gallery")}>View full gallery</button>
       </section>
