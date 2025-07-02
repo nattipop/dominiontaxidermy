@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       <section id="welcome">
         <h1>Dominion Taxidermy</h1>
-        <h3>Serving the greater Blue Diamond area. Trained in Wisconsin, refined in Montana</h3>
+        <h3>Trained in Wisconsin, refined in Montana. Serving the greater Blue Diamond area</h3>
       </section>
       <section id="what-we-offer">
         <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}}
