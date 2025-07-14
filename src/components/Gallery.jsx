@@ -45,7 +45,7 @@ const Gallery = () => {
     </div>
   ) : (
     <div id="gallery">
-      <img id="loading" src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator_square_medium.gif" width="250px" alt="" />
+      <img id="loading" src="https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif" width="250px" alt="" />
     </div>
   )
 }
