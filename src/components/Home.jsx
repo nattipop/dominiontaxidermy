@@ -33,6 +33,7 @@ const Home = () => {
       </section>
       <section id="what-we-offer">
         <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}} data-link="https://photos.app.goo.gl/CydnKp4x6YEKWFYDA" data-title="" data-description="">
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMpZWDngDUhePJ6Eip9eYdw5bZXKIaLvEKWFNSA2OugP7Bst7-80uxV9bZtEOtmJiSReCDn4RopPp0mv8hSSXnmRdT9ZD3gcPjj6AC0DwrmswO7-eaT3zuAmiXIkUHApLqQx3m75es1uE6Qjwawb6ML=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczOGuRJ75LsES7rLL_Ju1VTxKhilxqoe9xn9ox4chEAvQA68hPH49QXm-YesRSwQJazE9ybZm1KHqiiskgI-Mn__StrnnHR1gS7VANw8tKog87ssjZg=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczP_gfgArrQd7iAFaFPu154_qxFFLF6fLUfJfbqSA1b2nseM1H5jZSSVVtFSqRjU3aboKQi5hpxXhH0z-UWY-X9I4vLzX9Btk3b6aEZwq08u_FhXf9Y=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczPupAjGHEmtOepjMR9KL75PVJ-O2LXsOURKmrPTtD3L0mNujYuQxHKJuysbdn2Tuq_1-Wkt4b-P4KPyxa1JtIr0m-V5k5U6U-GteDsJFd6tNcqHbOs=w1920-h1080"></object>
