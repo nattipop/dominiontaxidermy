@@ -38,6 +38,11 @@ a:hover {
   margin-top: 62px;
 }
 
+#loading {
+  text-align: center;
+  padding: 50px;
+}
+
 button {
   margin: 10px;
   font-family: "Montserrat", serif;

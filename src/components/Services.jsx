@@ -146,7 +146,6 @@ const Services = () => {
       </div>
     </div>
   ) : (
-    
     <div className="page" id="services">
       <img id="services-cover" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1748818810/Dominiontaxidermy/IMG_6256-preview_zfywih.jpg" alt="" />
       <div id="services-title">

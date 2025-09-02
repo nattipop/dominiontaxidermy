@@ -44,7 +44,7 @@ const Gallery = () => {
       <div id="gallery-cover"></div>
     </div>
   ) : (
-    <div id="gallery">
+    <div id="gallery-page">
       <img id="loading" width="400px" src="https://res.cloudinary.com/dawteptkh/image/upload/v1756839513/Dominion-Photos/Dominion_Animation_udk7hs.gif" alt="" />
     </div>
   )
