@@ -111,7 +111,7 @@ const Services = () => {
     })
   }
 
-  return (
+  return misc ? (
     <div className="page" id="services">
       <img id="services-cover" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1748818810/Dominiontaxidermy/IMG_6256-preview_zfywih.jpg" alt="" />
       <div id="services-title">
@@ -144,6 +144,18 @@ const Services = () => {
       <div className="container service-list">
         {renderServices(misc)}
       </div>
+    </div>
+  ) : (
+    
+    <div className="page" id="services">
+      <img id="services-cover" className="header-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1748818810/Dominiontaxidermy/IMG_6256-preview_zfywih.jpg" alt="" />
+      <div id="services-title">
+        <h1>Services</h1>
+        <h2 id="questions">Call <a href="tel:7156424966">(715) 642-4966</a> with any questions on pricing</h2>
+      </div>
+      <p className="notice">Pricing subject to change without notice</p>
+      <p className="notice-2">Pricing is for mount only and does not include habitat</p>
+      <img id="loading" width="400px" src="https://res.cloudinary.com/dawteptkh/image/upload/v1756839513/Dominion-Photos/Dominion_Animation_udk7hs.gif" alt="" />
     </div>
   )
 }

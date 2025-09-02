@@ -45,7 +45,7 @@ const Gallery = () => {
     </div>
   ) : (
     <div id="gallery">
-      <img id="loading" src="https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif" width="250px" alt="" />
+      <img id="loading" width="400px" src="https://res.cloudinary.com/dawteptkh/image/upload/v1756839513/Dominion-Photos/Dominion_Animation_udk7hs.gif" alt="" />
     </div>
   )
 }
