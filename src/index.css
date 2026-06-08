@@ -46,8 +46,13 @@ a:hover {
 button {
   margin: 10px;
   font-family: "Montserrat", serif;
+  font-weight: bold;
   color: var(--dark-gray);
+  padding: 2px 7px;
   background-color: var(--tan);
+  border: none;
+  box-shadow: none;
+  border-radius: 3px;
 }
 
 button:hover {

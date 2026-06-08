@@ -9,6 +9,8 @@ const Photo = () => {
   const { photoId } = useParams();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+    
     if(!photo) {
       fetchPhoto();
     }

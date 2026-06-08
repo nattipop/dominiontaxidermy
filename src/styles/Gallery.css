@@ -1,6 +1,7 @@
 #gallery-page {
   width: 100%;
   overflow: hidden;
+  background-color: var(--dark-gray);
 }
 
 #gallery-cover {
@@ -19,31 +20,21 @@
 
 .gallery-single-image {
   width: 250px;
-  padding: 10px;
-  margin: 0px;
+  height: 250px;
+  padding: 5px;
+  object-fit: cover;
+  margin: 5px;
 }
 
 .gallery-single-image:hover {
   cursor: pointer;
   opacity: 80%;
+  border: 1px var(--tan) solid;
 }
 
 #photo-page {
   background-color: var(--dark-gray);
   padding: 100px 200px;
-}
-
-#photo-title {
-  font-size: 30px;
-  color: white;
-  font-family: "Amiri", serif;
-  margin: 40px;
-}
-
-#photo-category {
-  font-size: 15px;
-  color: white;
-  font-family: "Montserrat", serif;
 }
 
 #full-image {
