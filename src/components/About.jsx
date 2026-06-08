@@ -10,10 +10,10 @@ const About = () => {
   return (
     <div className="page" id="about">
       <div className="row">
-        <div id="image-column" className="col-3">
-          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1745685210/Dominiontaxidermy/IMG_6854_rukmar.jpg" alt="" />
+        <div id="image-column" className="col-5">
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/c_crop,g_north_west,h_1266,w_1639,x_168,y_242/Dominiontaxidermy/IMG_6753_wg9ewm.jpg" alt="" />
         </div>
-        <div className="col-9">
+        <div className="col-7">
           <h1>Welcome to Dominion Taxidermy!</h1>
           <h3>I&apos;m Matthew, and I&apos;ve been an avid hunter and angler since an early age. That passion continued into a desire to preserve those memories for years to come. I started my education at the Dan Rinehart Taxidermy School, and continued to refine my skills by working underneath experienced taxidermists at a large taxidermy studio based in southeastern Montana. Now located in beautiful Northwestern Wisconsin, I&apos;m excited to be your go-to taxidermist for all your trophy mounting needs!</h3>
         </div>

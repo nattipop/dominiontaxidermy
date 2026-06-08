@@ -6,7 +6,7 @@
 }
 
 #about h1 {
-  font-size: 40px;
+  font-size: 39px;
   font-family: "Amiri", serif;
 }
 
@@ -15,8 +15,16 @@
   font-family: "Montserrat", serif;
 }
 
-.col-3 img {
-  width: 200px;
+.col-5 img {
+  width: 100%;
+}
+
+.col-5 {
+  width: 42%;
+}
+
+.col-7 {
+  width: 58%;
 }
 
 @media (max-width: 1300px) {
@@ -37,12 +45,12 @@
     object-fit: cover;
   }
 
-  .col-9 {
+  .col-7 {
     min-width: 100%;
     max-width: 100%;
   }
 
-  .col-9 h3 {
+  .col-7 h3 {
     text-overflow: ellipsis;
   }
 }
