@@ -59,6 +59,11 @@
 }
 
 @media (max-width: 725px) {
+  #loading {
+    padding: 50px;
+    width: 400px;
+  }
+
   #gallery {
     margin-top: 50px;
     padding: 20px;
