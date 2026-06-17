@@ -33,7 +33,7 @@ const Photo = () => {
     </div>
   ) : (
     <div id="photo-page">
-      <img id="loading" src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator_square_medium.gif" width="200px" alt="" />
+      <img id="loading" src="https://res.cloudinary.com/dawteptkh/image/upload/v1781726617/Dominion_Loading_lkaopg.gif" width="600px" alt="" />
     </div>
   )
 }
