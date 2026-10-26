@@ -27,6 +27,8 @@ const Gallery = () => {
   }
 
   const renderPhotos = () => {
+    photos.reverse();
+    
     return photos.map(photo => {
       return (
         <div id={photo.photo_id} key={photo.photo_id} className="col" onClick={() => navigate(`/gallery/${photo.photo_id}`)}>

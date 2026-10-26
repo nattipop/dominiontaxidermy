@@ -37,6 +37,12 @@ const Home = () => {
       </section>
       <section id="what-we-offer">
         <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}} data-link="https://photos.app.goo.gl/CydnKp4x6YEKWFYDA" data-title="" data-description="">
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczNxb6W8MZMfBlK2xzCV3ZEN_APIxENmRFXyOW-JGX7iMmywA-59IjRNXgZT_aT-OyfzQX9CV2cX_JBOyZ60ASzPD7kA82JXjGrKCWeyq-whq0O3XyY=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOjBWLXhHAwyXrksa6Dp_ZDBpqRlaX4VN2oR4G5oAbY3dazCv6koyJnEQyE0gwdnyPjvy2xF6QvSCiyUdvBYcHcyeoiiAz1_qEQeqhg8Kghq0i34Q8=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOC864zn1sf7jMi9xI4bpH_AsXJfWFu4jgOrAqrpOuCH3y69Lz_oFPTPa92XyeBp5kS0-0ydeptC-7o0RkjNtM_y0DJiud4rQHxJXJPrF7WFgNRTDc=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczMWv2yGUDfumnwmkWNNznUJdSDrad--CdjV9XJLxKSIIhwZogHP3iQFMpFDGJmXRsNqyZvp5KYneU_xwTdhCEsKxLIyXLQK0SUXtPFfc0cRAq8R5_s=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOz8Ruz5gZxNQDG73GXoMv2M8V9hr4Bg5_8Mf4qvxlba12hUFQ2sXnCPsIKDPNkud_OGsRLJm_u_ybx5iYQhts6AoCjXRIOvthR3Um6sPB8U2s4Y3E=w1920-h1080"></object>
+          <object data="https://lh3.googleusercontent.com/pw/AP1GczOv3yV7Y4Eb_XzGFYd5AkJWQIf1dxCoJt3L5wKYtp4FG6cO4KHulfda6zqpnqCyq8wpSK6wXAw7YeIf-Bk516YZClP5nhwFsjrgS6PKUNeB8dxNo84=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczPZ4EQQUqiWYjzCEUHiIzYqdtHHl3wvaTRR42Jm3pJQ2PKOnX5RFqCrw4_st2V-0-zm2muG6xvoz7as8yfTjoA1VAUdpRBBu_clLtfHBuRInKVjKlo=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczNN_RYCf7IX8tGbvWbja4IEZ236XWyHlo5zhnYNXcCxz13LzGdWs07umooLxjJrGXAWFHklICB_auT1WeZi_ijdPuct3PzSRVB-JCnCO98mwtlAljA=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczPMHjzjl2MEjE_OTLwA9SDXfSbFSeELCnNB3evxMyy5YWlFQJphK6nMZa4R5idmstiEBsRuRFHoVQi1u8PvUJRF5Tl71AdNdLJOxzeHEA4hf-RX2e0=w1920-h1080"></object>
@@ -64,8 +70,6 @@ const Home = () => {
           <object data="https://lh3.googleusercontent.com/pw/AP1GczPzTsAZlX_y70B6AhxD6QJJ3BkMfYoGkLvXYCNHsdNn4UcDczRtfEmEV-LqF2In3gLEm3UQYSffOhTjHuSiUt_j_lQ25I_0ToaHG-O6iR69GxIvklY=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczOvAe6WAMMSdruMSW8Rc49-dJlN52fGQb6_dHyuymV1hsbu0ldUbWKtZdsz8UM04ZTO4TGmL2o1bKwz4ArD8I435UZwyFdyTj1boQwiUT_U25El-8I=w1920-h1080"></object>
           <object data="https://lh3.googleusercontent.com/pw/AP1GczMM8B3ntTmfQJb_jaEbUWDwqNt7O_tmFQAoDtUrqiKmx44WBni-8VzQaRLRuRv-hvypCK6aJVykk0zo0LalqT5H1cDdf1dUFpd4SSDteqOF9lyxNwc=w1920-h1080"></object>
-          <object data="https://lh3.googleusercontent.com/pw/AP1GczMmKSpVGquwWfkD4gDyXuRlxTUfugZE9wIZHuFg2hy_l2z9LzjrFb7dfWcIySnjuOr5UdHjP2SbW6LL_NqEZ1UkeYTvDmE06BfUN53Hi5ZnWQWxA5Q=w1920-h1080"></object>
-          <object data="https://lh3.googleusercontent.com/pw/AP1GczOcCWZUCKu3G41FTlAQX7kU1YEuYlLhC0fCX5yzdVNuez2nB1ddqdsa1VIb2xiLfwqSih2zQEPHv8qOlfFBbzgP8-AgIt7-W9npsbmE27PfVGh2zps=w1920-h1080"></object>
         </div>
         <button onClick={() => navigate("/gallery")}>View full gallery</button>
       </section>

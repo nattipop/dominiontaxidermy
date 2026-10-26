@@ -29,8 +29,7 @@
 }
 
 .fade-container .top-img {
-  opacity: 0;
-}
+  opacity: 0;}
 
 .fade-container:hover .top-img {
   opacity: 1;
