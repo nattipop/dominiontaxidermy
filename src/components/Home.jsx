@@ -19,17 +19,21 @@ const Home = () => {
 
   return (
     <div className="page" id="home">
-      <img id="cover-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745683005/Dominiontaxidermy/IMG_6852_xcoiay.jpg" width="100vw" />
-      <div id="cover-header">
-        <img id="logo-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745682273/Dominiontaxidermy/DTwhitecircle_cen486.png" />
-        <h2>High-Quality Taxidermy in<br/> Northwest Wisconsin</h2>
+      <div className="fade-container">
+        <div id="cover-header">
+          <img id="logo-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745682273/Dominiontaxidermy/DTwhitecircle_cen486.png" />
+          <h2>High-Quality Taxidermy in<br/> Northwest Wisconsin</h2>
+        </div>
+        <img className="cover-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1745683005/Dominiontaxidermy/IMG_6852_xcoiay.jpg" width="100vw" />
+        <img className="cover-img top-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1793014614/3AFF1EC1-CDD9-445D-8151-248E2454B4F9_1_105_c_nwhym5.jpg" width="100vw" />
       </div>
       <div id="phone-banner">
-        <h1><a href="tel:7156424966">(715) 642-4966</a></h1>
+        <h1>Got a trophy? Call <a href="tel:7156424966">(715) 642-4966</a></h1>
       </div>
       <section id="welcome">
         <h1>Dominion Taxidermy</h1>
-        <h3>Trained in Wisconsin, refined in Montana. Serving the greater Blue Diamond area</h3>
+        <h3>Trained in Wisconsin, Refined in Montana. Serving the Greater Blue Diamond Area</h3>
+        <h3>Learn More About Us <a href="/about">Here</a></h3>
       </section>
       <section id="what-we-offer">
         <div id="slideshow" className="pa-carousel-widget" style={{width: "100%", height: "480px", display: "none"}} data-link="https://photos.app.goo.gl/CydnKp4x6YEKWFYDA" data-title="" data-description="">
@@ -65,13 +69,6 @@ const Home = () => {
         </div>
         <button onClick={() => navigate("/gallery")}>View full gallery</button>
       </section>
-      {/* <section id="home-contact">
-        <h1 className="contact-info" id="business-name">Dominion Taxidermy</h1>
-        <h2 className="contact-info" id="contact-name">Matthew Jerabek</h2>
-        <h2 className="contact-info" id="phone">(715) 642-4966</h2>
-        <h2 className="contact-info" id="address">N485 Chippewa Trail, New Auburn, WI 54757</h2>
-        <h2 className="contact-info" id="email">dominiontaxidermywi@gmail.com</h2>
-      </section> */}
     </div>
   )
 }

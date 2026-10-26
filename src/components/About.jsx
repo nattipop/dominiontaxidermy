@@ -11,7 +11,7 @@ const About = () => {
     <div className="page" id="about">
       <div className="row">
         <div id="image-column" className="col-5">
-          <img src="https://res.cloudinary.com/dawteptkh/image/upload/c_crop,g_north_west,h_1266,w_1639,x_168,y_242/Dominiontaxidermy/IMG_6753_wg9ewm.jpg" alt="" />
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1793016498/0E373B5E-504B-442B-99DF-376AAE01F737_1_201_a_p4oc5l.jpg" alt="" />
         </div>
         <div className="col-7">
           <h1>Welcome to Dominion Taxidermy!</h1>

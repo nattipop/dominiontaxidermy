@@ -19,14 +19,6 @@
   width: 100%;
 }
 
-.col-5 {
-  width: 42%;
-}
-
-.col-7 {
-  width: 58%;
-}
-
 @media (max-width: 1300px) {
   #about {
     padding: 50px;
@@ -39,9 +31,8 @@
   }
 
   #image-column img {
-    min-width: 100%;
-    max-width: 100%;
-    height: 600px;
+    min-width: 50%;
+    max-width: 50%;
     object-fit: cover;
   }
 
